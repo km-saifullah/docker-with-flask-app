@@ -4,6 +4,15 @@ In this project, I will demonstrate how to create a simple Python application us
 
 ![Project Architecture](https://res.cloudinary.com/dmysnb0x5/image/upload/v1749223055/Hardware_rmnroe.png)
 
+## Requirements
+
+This project was developed and tested on **Ubuntu Server**, so the setup instructions below are tailored for Ubuntu users.
+
+- **Docker Installed**: To build and run the Dockerized Flask application, you must have Docker installed on your machine.
+
+If you're using **Ubuntu**, follow the official installation guide from Docker:  
+ [Install Docker on Ubuntu – Official Documentation](https://docs.docker.com/engine/install/ubuntu/)
+
 ## Step-1: Create the necessary directories and files required to structure and run the Flask application
 
 Create the project’s root directory and initialize all the necessary files required for building and running the Flask application.
@@ -98,20 +107,20 @@ docker run -d -p 5000:5000 --name=flask-app-container --restart=always flask-app
 
 ## Step-7: Test the application in the browser and CLI
 
-1. Test in the Browser: Open your browser and navigate to
+1. Test in the browser: Open your browser and navigate to
 
 ```bash
 http://localhost:5000
 http://your_machine_ip_address:5000
 ```
 
-2. Test ugin CLI: You can also test the application from the command line using `curl`
+2. Test using CLI: You can also test the application from the command line using `curl`
 
 ```bash
 curl http://localhost:5000
 ```
 
-## Reach Out to Me
+## Reach out to me
 
 If you have any questions, feedback or collaboration ideas feel free to connect with me:
 
